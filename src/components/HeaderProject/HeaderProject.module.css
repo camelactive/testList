@@ -1,0 +1,44 @@
+.HeaderProject{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.HeaderProject h3{
+    margin-left: 20px;
+}
+.HeaderProject__left,
+.HeaderProject__right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.HeaderProject__right{
+    column-gap: 20px;
+}
+.logo{
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+}
+.bell{   
+    background-color: gray;
+    width: 20px;
+    height: 20px;}
+.avatar{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.user{}
+.user__name{
+    font-size: 16px;
+}
+.user__rank{
+    font-size: 12px;
+    color: gray;
+}

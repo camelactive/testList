@@ -1,0 +1,12 @@
+.AsideMenu{
+    background-color: white;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border-right: 1px solid black;
+}
+.logo{
+    margin: 20px;
+}

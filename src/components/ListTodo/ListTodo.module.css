@@ -1,0 +1,116 @@
+.ListTodo{
+    margin-left: 120px;
+    margin-right: 20px;
+}
+.ListTodo__heads{
+    background-color: #F7F7FC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ListTodo__heads div{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px;
+}
+.ListTodo__section{
+    background: #E1E1FB;
+    text-align: start;
+
+}
+.List__heads span {
+    margin: 10px;
+    
+}
+.ListTodo__header{
+    font-size: 24px;
+}
+.close{
+    display: none;
+    animation-duration: 1s;
+    animation-name: closeAnim;
+}
+.open{
+    display: block;
+    background-color: white;
+    animation-duration: 1s;
+    animation-name: openAnim;
+ 
+}
+@keyframes openAnim {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+@keyframes closeAnim {
+    to {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+    from {
+        margin-left: 0%;
+        width: 100%;
+      }
+  }
+
+.section__arrow{
+    margin-left: 20px;
+}
+.upDownpics{
+    margin-left: 100px;
+}
+
+.listItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.listItem:hover {
+    background-color: #71FACA;
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 1236px){
+    .ListTodo__heads div{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .listItem {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 990px){
+    .ListTodo__heads div{
+        font-size: 10px;
+        margin: 3px;
+    }
+    .listItem {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 820px){
+    .ListTodo__heads div{
+        font-size: 8px;
+        margin: 3px;
+    }
+    .listItem {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 700px){
+    .ListTodo__heads div{
+        font-size: 6px;
+        margin: 1px;
+    }
+    .listItem {
+        font-size: 6px;
+    }
+}
